@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package grpc;
+
+import "proto/messages/messages.proto";
+
+
+// The greeting service definition.
+service Servicer {
+  // Sends a greeting
+  rpc SayHello (messages.In) returns (messages.Out) {}
+}
+message Hello{
+	int64 number = 1;
+	}

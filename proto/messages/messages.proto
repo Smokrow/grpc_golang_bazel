@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package messages;
+message In{
+	string dummy = 1;
+}
+message Out{
+	string dummy = 1;
+}
+
